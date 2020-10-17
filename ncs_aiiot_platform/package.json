@@ -1,0 +1,9 @@
+{
+    "name": "node-red-project",
+    "description": "A Node-RED Project",
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {
+        "node-red-contrib-pcap": "file:../node-red-contrib-pcap/node-red-contrib-pcap-1.0.3.tgz"
+    }
+}

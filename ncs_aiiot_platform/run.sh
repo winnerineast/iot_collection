@@ -1,0 +1,1 @@
+node-red --port 1880 --settings settings.js --title AIIoT_Platform --userDir ./ -v flows.json
