@@ -6,7 +6,7 @@ from pyshark.packet.packet import Packet
 
 ####################################################
 print('Global configuration area:\n')
-MQTT_BROKER_HOSTNAME = 'localhost'
+MQTT_BROKER_HOSTNAME = '192.168.1.118'
 MQTT_BROKER_PORT = 1883
 MQTT_BROKER_CONNECTION_TIMOUT = 60
 MQTT_BROKER_PACKET_TOPIC_NAME = 'topic/nic'
@@ -16,7 +16,7 @@ print("Check whether wireshark is installed.")
 
 
 # The callback for when the client receives a CONNACK response from the server.
-def on_connect(client, userdata, rc):
+def on_connect(client, userdata, flags, rc):
     if rc == 0:
         print("connected OK Returned code=", rc)
         client.connected_flag = True  # set flag
@@ -25,7 +25,7 @@ def on_connect(client, userdata, rc):
 
 
 # The callback for when the client receives a CONNACK response from the server.
-def on_disconnect(client, userdata, rc):
+def on_disconnect(client, userdata, flags, rc):
     print("Disconnected with result code " + str(rc))
     client.loop_stop()
 

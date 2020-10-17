@@ -1,26 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2b01cff9-4dd8-4f84-be4a-ad9c665d185e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/iot_collection.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beats" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elasticsearch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emqx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emqx-rel" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kibana" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logstash" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/offensive-docker" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyshark" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thingsboard" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thingsboard-gateway" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wireshark" afterDir="false" />
+    <list default="true" id="2b01cff9-4dd8-4f84-be4a-ad9c665d185e" name="Default Changelist" comment="added open source IoT source codes.">
+      <change afterPath="$PROJECT_DIR$/aiiot_gateway/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiiot_gateway/gateway_protector.py" beforeDir="false" afterPath="$PROJECT_DIR$/aiiot_gateway/gateway_protector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiiot_gateway/nic-agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/aiiot_gateway/nic-agent.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +23,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -47,7 +33,29 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.gateway_protector">
+    <configuration name="gateway_protector" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="iot_collection" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/aiiot_gateway" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aiiot_gateway/gateway_protector.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="iot_collection" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -70,6 +78,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="nic-agent" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="iot_collection" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/aiiot_gateway" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aiiot_gateway/nic-agent.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.gateway_protector" />
+        <item itemvalue="Python.nic-agent" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -80,12 +116,24 @@
       <option name="presentableId" value="Default" />
       <updated>1602943909281</updated>
       <workItem from="1602943922281" duration="38000" />
-      <workItem from="1602943989113" duration="2077000" />
+      <workItem from="1602943989113" duration="2837000" />
     </task>
+    <task id="LOCAL-00001" summary="added open source IoT source codes.">
+      <created>1602950409400</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602950409400</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added open source IoT source codes." />
+    <option name="LAST_COMMIT_MESSAGE" value="added open source IoT source codes." />
   </component>
   <component name="WindowStateProjectService">
     <state x="812" y="471" key="Github.ShareDialog" timestamp="1602945191845">
@@ -96,5 +144,29 @@
       <screen x="0" y="23" width="1920" height="1128" />
     </state>
     <state x="624" y="279" key="Github.UntrackedFilesDialog/-285.-1080.2560.1080/0.23.1920.1128@0.23.1920.1128" timestamp="1602945211648" />
+    <state width="1238" height="289" key="GridCell.Tab.0.bottom" timestamp="1602951097580">
+      <screen x="-285" y="-1080" width="2560" height="1080" />
+    </state>
+    <state width="1238" height="289" key="GridCell.Tab.0.bottom/-285.-1080.2560.1080/0.23.1920.1128@-285.-1080.2560.1080" timestamp="1602951097580" />
+    <state width="1238" height="289" key="GridCell.Tab.0.center" timestamp="1602951097579">
+      <screen x="-285" y="-1080" width="2560" height="1080" />
+    </state>
+    <state width="1238" height="289" key="GridCell.Tab.0.center/-285.-1080.2560.1080/0.23.1920.1128@-285.-1080.2560.1080" timestamp="1602951097579" />
+    <state width="1238" height="289" key="GridCell.Tab.0.left" timestamp="1602951097579">
+      <screen x="-285" y="-1080" width="2560" height="1080" />
+    </state>
+    <state width="1238" height="289" key="GridCell.Tab.0.left/-285.-1080.2560.1080/0.23.1920.1128@-285.-1080.2560.1080" timestamp="1602951097579" />
+    <state width="1238" height="289" key="GridCell.Tab.0.right" timestamp="1602951097579">
+      <screen x="-285" y="-1080" width="2560" height="1080" />
+    </state>
+    <state width="1238" height="289" key="GridCell.Tab.0.right/-285.-1080.2560.1080/0.23.1920.1128@-285.-1080.2560.1080" timestamp="1602951097579" />
+    <state x="995" y="-1080" width="1280" height="1080" key="Vcs.Push.Dialog.v2" timestamp="1602950454192">
+      <screen x="-285" y="-1080" width="2560" height="1080" />
+    </state>
+    <state x="995" y="-1080" width="1280" height="1080" key="Vcs.Push.Dialog.v2/-285.-1080.2560.1080/0.23.1920.1128@-285.-1080.2560.1080" timestamp="1602950454192" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/iot_collection$nic_agent.coverage" NAME="nic-agent Coverage Results" MODIFIED="1602950713660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aiiot_gateway" />
+    <SUITE FILE_PATH="coverage/iot_collection$gateway_protector.coverage" NAME="gateway_protector Coverage Results" MODIFIED="1602951097573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aiiot_gateway" />
   </component>
 </project>

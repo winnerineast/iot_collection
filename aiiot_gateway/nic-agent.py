@@ -11,7 +11,7 @@ import paho.mqtt.client as mqtt
 
 ####################################################
 print('Global configuration area:\n')
-MQTT_BROKER_HOSTNAME = '192.168.0.1'
+MQTT_BROKER_HOSTNAME = '192.168.1.118'
 MQTT_BROKER_PORT = 1883
 MQTT_BROKER_CONNECTION_TIMOUT = 60
 MQTT_BROKER_PACKET_TOPIC_NAME = 'topic/nic'
